@@ -129,7 +129,7 @@ public class EmailPasswordActivity extends Activity implements
         // [END create_user_with_email]
     }
 
-    private void signIn(String email, String password) {
+    private void signIn(final String email, final String password) {
         Log.d(TAG, "signIn:" + email);
         if (!validateForm()) {
             return;
@@ -143,6 +143,13 @@ public class EmailPasswordActivity extends Activity implements
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         Log.d(TAG, "signInWithEmail:onComplete:" + task.isSuccessful());
+                        Toast.makeText(EmailPasswordActivity.this,"hello",
+                                Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(getApplicationContext(), Tableau.class);
+                        intent.putExtra("email",email);
+                        intent.putExtra("password",password);
+
+                        startActivity(intent);
 
                         // If sign in fails, display a message to the user. If sign in succeeds
                         // the auth state listener will be notified and logic to handle the
@@ -151,6 +158,10 @@ public class EmailPasswordActivity extends Activity implements
                             Log.w(TAG, "signInWithEmail:failed", task.getException());
                             Toast.makeText(EmailPasswordActivity.this, R.string.auth_failed,
                                     Toast.LENGTH_SHORT).show();
+                        }
+                        else
+                        {
+
                         }
 
                         // [START_EXCLUDE]

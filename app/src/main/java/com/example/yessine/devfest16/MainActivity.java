@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void writeNewUser(String id, String nom) {
-       user user = new user(id, nom);
+       user user = new user(id, "hhh" ,nom);
 
         mDatabase.child("users").push().setValue(user);
     //    mDatabase.child("users").push().setValue(user);

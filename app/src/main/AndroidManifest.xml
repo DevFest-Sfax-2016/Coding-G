@@ -24,9 +24,13 @@
         <activity android:name=".Inscri" >
 
         </activity>
+        <activity android:name=".Tableau" >
+
+        </activity>
         <activity android:name=".MeuG" >
 
         </activity>
+
 
 
 

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+    android:gravity="center"
+    android:weightSum="8"
+
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1.5"
+        android:layout_weight="5.93">
+
+
+        <Button
+            android:id="@+id/btnCamera"
+
+            android:text="Client"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+
+            android:layout_width="149dp"
+            android:layout_height="67dp"
+            android:background="#b3057b"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="00"
+            android:shadowRadius="13"
+            android:layout_gravity="center_vertical" />
+
+        <Button
+            android:id="@+id/button1"
+
+
+            android:text="Admin"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+
+            android:layout_width="112dp"
+            android:layout_height="69dp"
+            android:background="#b3057b"
+            android:shadowColor="#000000"
+            android:shadowDx="3"
+            android:shadowDy="00"
+            android:shadowRadius="13"
+             android:layout_marginLeft="10dp"
+            android:layout_weight="0.40"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+
+        android:text="Déconnexion "
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+
+        android:layout_width="232dp"
+        android:layout_height="47dp"
+        android:background="#b3057b"
+        android:shadowColor="#000000"
+        android:shadowDx="3"
+        android:shadowDy="00"
+        android:shadowRadius="13"
+        android:layout_weight="0.64" />
+</LinearLayout>
