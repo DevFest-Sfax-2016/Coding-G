@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/common_action_bar_splitter"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="475dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <Button
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:background="@drawable/homee"
+            android:id="@+id/button1"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_width="40dp" />
+
+        <Button
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:background="@drawable/cameraa"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="40dp" />
+        <Button
+            android:layout_width="69dp"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/searchh"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/profil"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "265886277580",
+    "firebase_url": "https://yassska-f41df.firebaseio.com",
+    "project_id": "yassska-f41df",
+    "storage_bucket": "yassska-f41df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265886277580:android:99904d18afb68537",
+        "android_client_info": {
+          "package_name": "com.example.yessine.devfest16"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265886277580-9t6hcgdhj7gbpsj2h939kehpaaml093f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUn_1RakgjmcqVCxrxd2BNNUg_Iit-dWA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
